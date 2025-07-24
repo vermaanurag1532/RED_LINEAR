@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Journey - RoboVision Labs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./gallery-style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                RoboVision
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#technology">Technology</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gallery-hero">
+        <div class="hero-background">
+            <div class="animated-grid">
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-word">Our</span>
+                    <span class="title-word">Journey</span>
+                    <span class="title-word">of</span>
+                    <span class="title-word">Innovation</span>
+                </h1>
+                <p class="hero-subtitle">From concept to reality - witness the evolution of revolutionary SLAM technology</p>
+                <div class="journey-timeline">
+                    <div class="timeline-item">
+                        <span class="year">2022</span>
+                        <span class="milestone">Foundation</span>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="year">2023</span>
+                        <span class="milestone">First Prototype</span>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="year">2024</span>
+                        <span class="milestone">Market Ready</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Explore our journey</span>
+        </div>
+    </section>
+
+    <!-- Interactive Gallery Section -->
+    <section class="interactive-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Interactive Gallery</h2>
+                <p>Swipe through our journey of innovation and achievements</p>
+                <div class="gallery-controls">
+                    <button class="control-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <span class="gallery-counter">1 / 9</span>
+                    <button class="control-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="swipe-gallery">
+                <div class="gallery-container">
+                    <div class="gallery-track">
+                        <!-- Gallery Item 1 -->
+                        <div class="gallery-item active" data-index="0">
+                            <div class="gallery-image">
+                                <img src="./assets/123.jpg" alt="Company Foundation">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>The Beginning</h3>
+                                        <p>Four visionaries united by a common dream</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">January 2022</span>
+                                <h3>Company Foundation</h3>
+                                <p>RoboVision Labs was born from a shared vision to revolutionize autonomous navigation. Our founders, coming from diverse backgrounds in AI, robotics, and engineering, united to tackle the most challenging problems in SLAM technology.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Foundation</span>
+                                    <span class="tag">Vision</span>
+                                    <span class="tag">Team Building</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 2 -->
+                        <div class="gallery-item" data-index="1">
+                            <div class="gallery-image">
+                                <img src="./assets/image2.jpg" alt="First Research">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Research & Development</h3>
+                                        <p>Deep dive into SLAM algorithms</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">March 2022</span>
+                                <h3>Intensive Research Phase</h3>
+                                <p>Months of intensive research into existing SLAM technologies, identifying gaps in the market, and developing our unique approach to visual and traditional SLAM integration.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Research</span>
+                                    <span class="tag">Innovation</span>
+                                    <span class="tag">Analysis</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 3 -->
+                        <div class="gallery-item" data-index="2">
+                            <div class="gallery-image">
+                                <img src="./assets/image3.jpg" alt="Lab Setup">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Lab Establishment</h3>
+                                        <p>Setting up our cutting-edge research facility</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">June 2022</span>
+                                <h3>Research Lab Setup</h3>
+                                <p>Establishment of our state-of-the-art research facility equipped with advanced sensors, computing infrastructure, and testing environments for SLAM development.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Infrastructure</span>
+                                    <span class="tag">Equipment</span>
+                                    <span class="tag">Facility</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 4 -->
+                        <div class="gallery-item" data-index="3">
+                            <div class="gallery-image">
+                                <img src="./assets/image4.jpg" alt="First Prototype">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>First Prototype</h3>
+                                        <p>Our breakthrough moment arrives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">October 2022</span>
+                                <h3>First Working Prototype</h3>
+                                <p>After months of development, we achieved our first major milestone - a working prototype that demonstrated the feasibility of our innovative SLAM approach.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Prototype</span>
+                                    <span class="tag">Breakthrough</span>
+                                    <span class="tag">Success</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 5 -->
+                        <div class="gallery-item" data-index="4">
+                            <div class="gallery-image">
+                                <img src="./assets/image5.jpg" alt="Algorithm Development">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Algorithm Refinement</h3>
+                                        <p>Perfecting our core technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">February 2023</span>
+                                <h3>Algorithm Optimization</h3>
+                                <p>Continuous refinement of our SLAM algorithms, achieving significant improvements in accuracy, speed, and reliability through advanced machine learning techniques.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Algorithms</span>
+                                    <span class="tag">Optimization</span>
+                                    <span class="tag">AI/ML</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 6 -->
+                        <div class="gallery-item" data-index="5">
+                            <div class="gallery-image">
+                                <img src="./assets/image6.jpg" alt="Industry Testing">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Industry Testing</h3>
+                                        <p>Real-world validation begins</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">July 2023</span>
+                                <h3>Industry Partnerships</h3>
+                                <p>Collaborative testing with leading robotics companies to validate our technology in real-world scenarios across manufacturing, healthcare, and autonomous vehicle applications.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Partnerships</span>
+                                    <span class="tag">Testing</span>
+                                    <span class="tag">Validation</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 7 -->
+                        <div class="gallery-item" data-index="6">
+                            <div class="gallery-image">
+                                <img src="./assets/image7.jpg" alt="Team Growth">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Team Expansion</h3>
+                                        <p>Growing our talented team</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">November 2023</span>
+                                <h3>Team Expansion</h3>
+                                <p>Strategic hiring of top talent in robotics, AI, and software engineering to accelerate development and prepare for market launch.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Growth</span>
+                                    <span class="tag">Talent</span>
+                                    <span class="tag">Scaling</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 8 -->
+                        <div class="gallery-item" data-index="7">
+                            <div class="gallery-image">
+                                <img src="./assets/image8.jpg" alt="Product Launch">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Product Launch</h3>
+                                        <p>Ready for the world</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">March 2024</span>
+                                <h3>Official Product Launch</h3>
+                                <p>Launch of our commercial SLAM SDK, marking our entry into the market with a robust, scalable solution trusted by industry leaders.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Launch</span>
+                                    <span class="tag">Commercial</span>
+                                    <span class="tag">Market Ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 9 -->
+                        <div class="gallery-item" data-index="8">
+                            <div class="gallery-image">
+                                <img src="./assets/image9.jpg" alt="Future Vision">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Future Vision</h3>
+                                        <p>The journey continues</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <span class="gallery-date">Today & Beyond</span>
+                                <h3>Future Innovations</h3>
+                                <p>Continuous innovation in SLAM technology, exploring new frontiers in AI, expanding to new industries, and shaping the future of autonomous systems.</p>
+                                <div class="gallery-tags">
+                                    <span class="tag">Future</span>
+                                    <span class="tag">Innovation</span>
+                                    <span class="tag">Growth</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swipe Indicators -->
+                <div class="swipe-indicators">
+                    <div class="indicator active" data-index="0"></div>
+                    <div class="indicator" data-index="1"></div>
+                    <div class="indicator" data-index="2"></div>
+                    <div class="indicator" data-index="3"></div>
+                    <div class="indicator" data-index="4"></div>
+                    <div class="indicator" data-index="5"></div>
+                    <div class="indicator" data-index="6"></div>
+                    <div class="indicator" data-index="7"></div>
+                    <div class="indicator" data-index="8"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Achievements</h2>
+                <p>Milestones that define our journey</p>
+            </div>
+
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Best AI Startup 2024</h3>
+                    <p>Recognized by TechCrunch as the most promising AI startup in robotics</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Innovation Award</h3>
+                    <p>Received the Robotics Innovation Award at the International Robotics Conference</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Successful Funding</h3>
+                    <p>Secured Series A funding to accelerate product development and market expansion</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Strategic Partnerships</h3>
+                    <p>Partnerships with leading robotics companies and Fortune 500 manufacturers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="gallery-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Be Part of Our Story?</h2>
+                <p>Join us as we continue to innovate and shape the future of robotics</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">
+                        <span>Start Your Journey</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn-secondary">
+                        <span>Learn More</span>
+                        <i class="fas fa-info-circle"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>RoboVision Labs</span>
+                    </div>
+                    <p>Pioneering the future of autonomous robotics with cutting-edge SLAM technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Visual SLAM SDK</a></li>
+                        <li><a href="#">Traditional SLAM</a></li>
+                        <li><a href="#">AI Navigation</a></li>
+                        <li><a href="#">Cloud Platform</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 RoboVision Labs. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./gallery-script.js"></script>
+</body>
+</html>
